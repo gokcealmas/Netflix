@@ -1,0 +1,71 @@
+body {
+  background-image: url(netflixbackground.jpeg);
+  font-family: 'Roboto Slab', serif;
+}
+#title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bowlby One SC", cursive;
+  padding-top: 10px;
+  letter-spacing: 7px;
+}
+span {
+  color: red;
+}
+
+#subtitle {
+  color: white;
+  text-align: center;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+.container {
+  background-color: black;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+}
+
+label{
+  color:white;
+  display:block;
+}
+
+.labelinput {
+  margin-bottom:10px;
+}
+
+.textinput{
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+select{
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;
+
+}
+#feedback{
+  width: 100%;
+}
+.button{
+  display:block;
+  margin:20px auto;
+  background-color:red;
+  font-size:larger;
+  height:45px;
+  width:160px;
+  border-radius:50px;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+.button:hover{
+  color:red;
+  background-color: white;;
+}
